@@ -1,0 +1,16 @@
+:root{--navy:#0a2342;--gold:#d4af37;--text:#101418;--muted:#6b7280;--bg:#f7f8fa;--card:#fff;--focus:#2563eb}
+*{box-sizing:border-box}body{margin:0;font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Arial;color:var(--text);background:var(--bg);line-height:1.45}
+.container{max-width:1200px;margin:0 auto;padding:16px}.header{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;padding:8px 0}
+.brand{display:flex;align-items:center;gap:12px}.brand h1{margin:0;font-size:22px;color:var(--navy)}
+.nav a{margin-right:12px;text-decoration:none;color:var(--navy)}.nav a.btn{padding:8px 12px;border:2px solid var(--navy);border-radius:10px;font-weight:600}.btn.primary{background:var(--navy);color:#fff}.btn.primary:hover{filter:brightness(1.05)}
+.main{margin-top:16px}.card{background:var(--card);border:1px solid #e5e7eb;border-radius:14px;padding:16px;margin:12px 0;box-shadow:0 6px 18px rgba(10,35,66,0.06)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:12px}
+.player-card{border:1px solid #e5e7eb;border-radius:12px;overflow:hidden;background:#fff}
+.player-card img{width:100%;height:160px;object-fit:cover;background:#eef2f7}
+.player-card .pc-body{padding:10px}
+.table{width:100%;border-collapse:collapse}.table th,.table td{border:1px solid #e5e7eb;padding:10px;text-align:left}.table th{background:#f1f5f9}
+.group-title{margin:18px 0 6px;font-weight:700;color:var(--navy);border-left:4px solid var(--gold);padding-left:8px}
+.badge{display:inline-block;border-radius:999px;padding:2px 8px;background:#fef3c7;color:#78350f;border:1px solid #fde68a}.muted{color:var(--muted)}.footer{margin-top:24px;color:var(--muted)}
+input,button,select{font-size:16px;padding:10px;border-radius:10px;border:1px solid #cbd5e1}label{display:block;margin:10px 0 6px}button{cursor:pointer}
+.alert{padding:12px 14px;border-radius:10px;margin-top:10px}.alert.error{color:#721c24;background:#fde2e1;border:1px solid #f5c2c7}.alert.success{color:#155724;background:#d4edda;border:1px solid #c3e6cb}.small{font-size:13px}
+.actions{display:flex;gap:8px;flex-wrap:wrap}
